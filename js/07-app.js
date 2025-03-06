@@ -14,3 +14,8 @@ const carrito = [
 for( let pendiente of pendientes ) {
     console.log(pendiente)
 }
+
+
+for(let producto of carrito) {
+    console.log(producto.nombre)
+}
